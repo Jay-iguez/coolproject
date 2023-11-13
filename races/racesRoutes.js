@@ -1,7 +1,6 @@
 const express = require('express')
 const { figureAuthorization, getBalanceMessage } = require("../data/middleware")
 const races = express.Router()
-//races.use(getBalanceMessage)
 
 races.get('/', (req, res) => {
     const races = [

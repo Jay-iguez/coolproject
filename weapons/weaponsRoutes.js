@@ -48,14 +48,5 @@ weapons.use((err, req, res, next) => {
 })
 
 
-/**
- * weapons.use((err, req, res, next) => {
-    // error handling middlware takes in ERROR!
-    console.log(err)
-    res.status(500).json({
-        message: 'There was an error preforming the required operation!', error: err
-    })
-})
- */
 
 module.exports = weapons
